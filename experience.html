@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>庄园体验 - 冀承果创</title>
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <script src="./assets/js/tailwind.min.js"></script>
+    <script src="./assets/js/tailwind-config.js"></script>
+    <script src="./assets/js/icons.js"></script>
+</head>
+
+<body class="bg-surface text-on-surface">
+
+    <!-- TopNavBar -->
+    <div id="nav-placeholder"></div>
+
+    <main class="pt-24">
+
+        <!-- Hero Section -->
+        <section class="relative flex items-center overflow-hidden" style="height:clamp(500px,80vh,819px)">
+            <div class="absolute inset-0 z-0">
+                <img alt="燕山苹果园日落时分，金色阳光穿透累累果实的枝头，中国式山水意境" class="w-full h-full object-cover grayscale-[20%] brightness-75 hero-img" src="./assets/images/exp-hero-orchard-sunset.jpg" />
+                <div class="absolute inset-0 bg-gradient-to-r from-primary/30 to-transparent"></div>
+            </div>
+            <div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
+                <div class="max-w-3xl reveal-left">
+                    <h1 class="text-white text-6xl md:text-8xl leading-tight mb-6 font-headline tracking-tight">
+                        庄园体验<br/>
+                        <span class="text-primary-fixed">冀承果创</span>
+                    </h1>
+                    <p class="text-white/90 text-xl font-body leading-relaxed max-w-xl mb-12">
+                        走进燕山脚下的国光苹果园，让孩子们亲手触摸真实的农耕生活——从认识一棵果树开始，感受土地的馈赠。
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+                        <a href="./index.html#contact" class="bg-primary text-on-primary px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-all shadow-xl rounded-full">
+            预约参观
+          </a>
+                        <span class="text-white/80 font-label text-xs tracking-tighter uppercase flex items-center">
+            <span class="material-symbols-outlined mr-2">location_on</span>河北，承德 · 燕山山脉
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 体验三大板块 Bento -->
+        <section id="study" class="py-24 px-8 max-w-screen-2xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+                <div class="reveal-left">
+                    <span class="text-tertiary font-label text-sm tracking-widest uppercase mb-4 block">我们的服务</span>
+                    <h2 class="text-5xl font-headline text-primary">三种方式，走进燕山</h2>
+                </div>
+                <p class="text-on-surface-variant max-w-md font-body text-lg leading-relaxed reveal-right">
+                    为小学生提供真实的果园研学体验，同时开放文化展陈与品鉴活动，让每一位到访者在燕山风土中找到属于自己的感动。
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:h-[900px]">
+                <!-- 研学体验 -->
+                <div class="md:col-span-7 relative group overflow-hidden bg-surface-container-low rounded-sm reveal-left" style="min-height:480px;">
+                    <img alt="农艺师与参观者在苹果园中交流，手持成熟红苹果，清晨柔和光线" class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700" src="./assets/images/exp-orchard-study.jpg" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex flex-col justify-end p-12">
+                        <span class="text-tertiary-fixed font-label text-xs tracking-[0.3em] uppercase mb-4">小学研学 · 果园自然教育</span>
+                        <h3 class="text-white text-4xl font-headline mb-4">国光果园研学课堂</h3>
+                        <p class="text-white/80 font-body max-w-lg mb-8 leading-relaxed">
+                            专为小学生定制的果园研学体验——认识国光苹果树、亲手采摘、了解苹果从开花到结果的生长历程，在真实的燕山果园里感受自然与农耕的魅力。
+                        </p>
+                        <a href="./index.html#contact" class="flex items-center text-white/90 font-label text-sm tracking-widest uppercase group-hover:translate-x-2 transition-transform w-fit">
+                            预约研学课程 <span class="material-symbols-outlined ml-2">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- 右侧两张 -->
+                <div id="culture" class="md:col-span-5 flex flex-col gap-6">
+                    <div class="relative group overflow-hidden bg-surface-container-low rounded-sm reveal reveal-delay-1 flex-1" style="min-height:240px;">
+                        <img alt="现代简约的酒文化展馆内景，大型风土历史摄影展板与玻璃展陈柜" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" src="./assets/images/exp-cultural-exhibition.jpg" />
+                        <div class="absolute inset-0 bg-on-surface/40 flex flex-col justify-end p-10">
+                            <h3 class="text-white text-3xl font-headline mb-2">文化博览大厅</h3>
+                            <p class="text-white/80 font-body text-sm">记录滦河河谷发酵酿造的历史传承与文化记忆。</p>
+                        </div>
+                    </div>
+                    <div id="tasting" class="relative group overflow-hidden bg-surface-container-low rounded-sm reveal reveal-delay-2 flex-1" style="min-height:240px;">
+                        <img alt="庄园品鉴场景，宾客手持水晶酒杯在落地窗前俯瞰山景" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" src="./assets/images/exp-wine-tasting.jpg" />
+                        <div class="absolute inset-0 bg-on-surface/40 flex flex-col justify-end p-10">
+                            <h3 class="text-white text-3xl font-headline mb-2">庄园品鉴体验</h3>
+                            <p class="text-white/80 font-body text-sm">专业侍酒师引导，俯瞰滦河山景，开启风土味蕾之旅。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 引言区 -->
+        <section class="bg-surface-container-high py-32 px-8 overflow-hidden">
+            <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 relative reveal-left">
+                    <div class="absolute -top-12 -left-12 w-48 h-48 bg-tertiary/10 rounded-full blur-3xl"></div>
+                    <h2 class="text-6xl md:text-8xl font-headline text-primary/10 absolute -top-16 -left-8 select-none">传承</h2>
+                    <blockquote class="text-3xl md:text-4xl font-headline text-primary leading-relaxed relative z-10 italic">
+                        「我们不仅仅在酿酒，我们在策展燕山山脉随季节流动的呼吸。」
+                    </blockquote>
+                    <p class="mt-8 text-on-surface-variant font-label tracking-widest uppercase text-sm">— 首席酿酒师，冀承果创</p>
+                </div>
+                <div class="w-full md:w-1/2 reveal-right">
+                    <img alt="滦河河谷航拍全景，蜿蜒河流穿过绿色山谷，远处蓝色山脉晨雾缭绕" class="w-full aspect-[4/3] object-cover shadow-2xl grayscale-[30%]" src="./assets/images/exp-luanhe-valley.jpg" />
+                </div>
+            </div>
+        </section>
+
+        <!-- 详细旅程 -->
+        <section class="py-32 max-w-screen-2xl mx-auto px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+                <div class="relative reveal-left">
+                    <div class="aspect-[3/4] bg-surface-container-low overflow-hidden">
+                        <img alt="木制板条箱装满新鲜采摘的深红国光苹果，阳光从仓库屋顶缝隙穿入" class="w-full h-full object-cover" src="./assets/images/exp-apple-harvest.jpg" />
+                    </div>
+                    <div class="absolute -bottom-12 -right-12 w-64 h-80 hidden md:block border-8 border-surface-container-highest overflow-hidden shadow-xl">
+                        <img alt="精品果酒酒瓶标签近景，衬线字体优雅排版，金箔烫印细节" class="w-full h-full object-cover" src="./assets/images/apple.jpg" />
+                    </div>
+                </div>
+                <div class="space-y-12 reveal-right">
+                    <div class="flex items-start gap-6 reveal reveal-delay-1">
+                        <span class="text-tertiary text-4xl font-headline opacity-30">01</span>
+                        <div>
+                            <h3 class="text-2xl font-headline text-primary mb-3">果园研学体验 <span class="text-base font-body font-normal text-tertiary">· 专为小学生</span></h3>
+                            <p class="text-on-surface-variant leading-relaxed">由农艺师全程带队，带领小朋友们认识苹果树的结构与生长周期，亲手参与施肥、采摘等农事活动，感受食物从土地到餐桌的真实旅程。课程设计贴合小学自然教育课标，趣味性与知识性并重。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 reveal reveal-delay-2">
+                        <span class="text-tertiary text-4xl font-headline opacity-30">02</span>
+                        <div>
+                            <h3 class="text-2xl font-headline text-primary mb-3">文化之旅</h3>
+                            <p class="text-on-surface-variant leading-relaxed">走进一个现代建筑与古老发酵历史交汇的空间。我们的展厅记录了滦河对地区工艺的影响，以及承德国光苹果百年来的农业传承故事。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 reveal reveal-delay-3">
+                        <span class="text-tertiary text-4xl font-headline opacity-30">03</span>
+                        <div>
+                            <h3 class="text-2xl font-headline text-primary mb-3">品鉴体验</h3>
+                            <p class="text-on-surface-variant leading-relaxed">在私人品鉴室结束您的旅程。俯瞰山景的同时，在专业侍酒师引导下品鉴旗舰年份酒，搭配当地手工特产，在味觉上完成这场风土之旅。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA 联系区 -->
+        <section class="bg-primary py-24 mb-0">
+            <div class="max-w-screen-xl mx-auto px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+                    <div class="reveal-left">
+                        <h2 class="text-white text-5xl font-headline mb-6">预约到访冀承果创</h2>
+                        <p class="text-on-primary-container text-lg max-w-xl mb-4 leading-relaxed">
+                            欢迎学校、家长及团体提前预约果园研学课程，我们将为您量身安排行程。企业参访及品鉴活动同样欢迎联系。
+                        </p>
+                        <p class="text-white/60 text-sm">开放时间：每周一至周六 09:00–17:00</p>
+                    </div>
+                    <div class="space-y-4 reveal-right">
+                        <a href="tel:+8603148888888" class="flex items-center gap-5 bg-white/10 hover:bg-white/20 transition-colors p-6 rounded-lg group">
+                            <span class="material-symbols-outlined text-white text-2xl">call</span>
+                            <div>
+                                <div class="text-white font-bold">致电预约</div>
+                                <div class="text-white/70 text-sm">+86 (0314) 888 8888</div>
+                            </div>
+                            <span class="material-symbols-outlined text-white/40 ml-auto group-hover:text-white/80 transition-colors">arrow_forward</span>
+                        </a>
+                        <a href="mailto:contact@guosanliang.com" class="flex items-center gap-5 bg-white/10 hover:bg-white/20 transition-colors p-6 rounded-lg group">
+                            <span class="material-symbols-outlined text-white text-2xl">mail</span>
+                            <div>
+                                <div class="text-white font-bold">发送邮件</div>
+                                <div class="text-white/70 text-sm">contact@guosanliang.com</div>
+                            </div>
+                            <span class="material-symbols-outlined text-white/40 ml-auto group-hover:text-white/80 transition-colors">arrow_forward</span>
+                        </a>
+                        <a href="./index.html#contact" class="flex items-center gap-5 bg-surface text-primary hover:bg-surface-container-low transition-colors p-6 rounded-lg group font-bold">
+                            <span class="material-symbols-outlined text-primary text-2xl">edit_note</span>
+                            <div>
+                                <div>在线留言</div>
+                                <div class="text-on-surface-variant text-sm font-normal">我们将在24小时内回复</div>
+                            </div>
+                            <span class="material-symbols-outlined text-on-surface-variant ml-auto group-hover:text-primary transition-colors">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="./components/nav.js"></script>
+    <script src="./components/footer.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            renderNav('experience');
+            renderFooter();
+        });
+    </script>
+</body>
+
+</html>

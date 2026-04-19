@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<html class="light" lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>产品系列 - 冀承果创</title>
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <script src="./assets/js/tailwind.min.js"></script>
+    <script src="./assets/js/tailwind-config.js"></script>
+    <script src="./assets/js/icons.js"></script>
+</head>
+
+<body class="bg-surface text-on-surface">
+
+    <!-- TopNavBar -->
+    <div id="nav-placeholder"></div>
+
+    <main class="pt-32">
+
+        <!-- Hero Section -->
+        <section class="px-8 max-w-screen-2xl mx-auto mb-24">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+                <div class="md:col-span-7 reveal-left">
+                    <span class="text-tertiary font-label tracking-widest text-xs uppercase mb-4 block">果 · 酒 · 衍</span>
+                    <h1 class="text-6xl md:text-8xl font-serif text-primary mb-8 leading-tight tracking-tight">
+                        产品系列
+                    </h1>
+                    <p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">
+                        植根于燕山山脉独特的风土之中，我们将国光苹果的百年传承转化为多种形态的自然馈赠——新鲜的果实、流动的佳酿，以及承载风土记忆的文创作品。
+                    </p>
+                </div>
+                <div class="md:col-span-5 relative aspect-[4/5] overflow-hidden rounded-lg reveal-right">
+                    <img alt="精品果酒酒瓶标签近景，优雅中文书法字体，背景为模糊的果园晨光" class="w-full h-full object-cover" src="./assets/images/products-hero-bottle-label.jpg" />
+                    <div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 导航 -->
+        <div class="sticky top-[72px] z-40 bg-surface border-b border-outline-variant/20 px-8">
+            <div class="max-w-screen-2xl mx-auto flex gap-0 overflow-x-auto no-scrollbar -mb-px">
+                <button data-tab-btn="wine" class="px-5 md:px-8 py-4 md:py-5 font-label text-xs tracking-widest uppercase whitespace-nowrap border-b-2 border-primary text-primary transition-all">苹果酒系列</button>
+                <button data-tab-btn="apricot" class="px-5 md:px-8 py-4 md:py-5 font-label text-xs tracking-widest uppercase whitespace-nowrap text-on-surface-variant hover:text-primary transition-all flex items-center gap-1.5">
+                    杏子酒<span class="text-[9px] normal-case tracking-normal opacity-60">（正在研发中）</span>
+                </button>
+                <button data-tab-btn="fresh" class="px-5 md:px-8 py-4 md:py-5 font-label text-xs tracking-widest uppercase whitespace-nowrap text-on-surface-variant hover:text-primary transition-all">国光鲜果</button>
+                <button data-tab-btn="creative" class="px-5 md:px-8 py-4 md:py-5 font-label text-xs tracking-widest uppercase whitespace-nowrap text-on-surface-variant hover:text-primary transition-all">文创好物</button>
+                <button data-tab-btn="research" class="px-5 md:px-8 py-4 md:py-5 font-label text-xs tracking-widest uppercase whitespace-nowrap text-on-surface-variant hover:text-primary transition-all">研发预览</button>
+            </div>
+        </div>
+
+        <!-- Tab Panel: 苹果酒系列 -->
+        <div data-tab-panel="wine" class="bg-surface-container-low py-24 px-8">
+            <div class="max-w-screen-2xl mx-auto">
+
+                <div class="section-divider reveal">
+                    <span class="font-label text-xs tracking-widest uppercase text-tertiary px-4">「酒」· 苹果酒 · 点击图片可放大</span>
+                </div>
+
+                <!-- 主打产品：17° 原酿苹果酒 大幅展示 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
+                    <div class="reveal-left">
+                        <div class="aspect-[3/4] bg-surface-container-lowest p-12 flex items-center justify-center relative group overflow-hidden rounded-sm">
+                            <img alt="17度原酿苹果酒，淡雅金黄色酒液，清爽低度果酒" class="max-h-full object-contain transition-transform duration-700 group-hover:scale-105 cursor-zoom-in" src="./assets/images/home-apple-cider1.jpg" onclick="openLightbox(this.src,this.alt)" />
+                            <span class="absolute top-6 right-6 text-xs font-label tracking-widest text-secondary flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[14px]">eco</span> 有机认证
+                            </span>
+                            <span class="absolute bottom-4 left-1/2 -translate-x-1/2 text-[10px] text-on-surface-variant/50 font-label tracking-widest opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[12px]">zoom_in</span> 点击放大
+                            </span>
+                        </div>
+                    </div>
+                    <div class="reveal-right">
+                        <span class="text-secondary font-label tracking-widest text-xs uppercase mb-4 block">冀承果创 · 核心产品</span>
+                        <h2 class="font-serif text-5xl text-primary mb-6 leading-tight">17° 原酿苹果酒</h2>
+                        <p class="text-on-surface-variant leading-relaxed mb-6">
+                            以燕山国光苹果鲜榨果汁为唯一原料，低温缓慢发酵，全程不加水、不加糖、不加香料。酒体色泽清亮通透，兼具苹果清甜与成熟蜜香层次，入口柔顺醇和，酸甜均衡，余韵干净自然。
+                        </p>
+                        <p class="text-on-surface-variant leading-relaxed mb-10">
+                            这是冀承果创最具代表性的产品，也是我们相信的酿酒哲学的最直接体现——让果实自己说话。
+                        </p>
+                        <div class="grid grid-cols-2 gap-4 mb-10">
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">原料</div>
+                                <div class="text-on-surface font-serif text-sm">100% 国光苹果果汁</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">酒精度</div>
+                                <div class="text-on-surface font-serif text-sm">17°</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">风味</div>
+                                <div class="text-on-surface font-serif text-sm">蜂蜜 · 清脆果香</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">认证</div>
+                                <div class="text-on-surface font-serif text-sm">有机认证</div>
+                            </div>
+                        </div>
+                        <a href="./index.html#contact" class="inline-block bg-primary text-on-primary px-10 py-4 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary-container hover:text-on-primary-container transition-all">
+                            咨询了解
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 燕山壹号系列：蒸馏酒荣誉展示（紧凑型，非主推） -->
+                <div class="reveal">
+                    <div class="flex items-center justify-between mb-8">
+                        <h3 class="font-serif text-2xl text-primary">燕山壹号 · 国光苹果蒸馏酒</h3>
+                        <span class="font-label text-xs text-on-surface-variant tracking-widest uppercase">FISA法国国际烈酒大奖赛获奖产品</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- 40%vol -->
+                        <div class="bg-surface rounded-lg p-6 border border-outline-variant/20 flex gap-5 items-center group hover:shadow-md transition-shadow reveal reveal-delay-1">
+                            <div class="w-20 h-28 bg-surface-container-lowest rounded flex items-center justify-center shrink-0 overflow-hidden">
+                                <img alt="燕山壹号 40%vol" class="h-full object-contain cursor-zoom-in group-hover:scale-110 transition-transform duration-500" src="./assets/images/brandy-bottle-main.png" onclick="openLightbox(this.src,this.alt)" />
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="text-xs font-label text-tertiary tracking-widest uppercase mb-1 flex items-center gap-1">
+                                    <span class="material-symbols-outlined text-[12px]" style="font-variation-settings:'FILL' 1;">star</span> FISA金奖
+                                </div>
+                                <div class="font-serif text-base text-primary mb-1">燕山壹号 40%vol</div>
+                                <div class="text-xs text-on-surface-variant leading-relaxed">陶坛与橡木桶双储 · 青苹果·花香·杏仁</div>
+                            </div>
+                        </div>
+                        <!-- 53%vol -->
+                        <div class="bg-surface rounded-lg p-6 border border-outline-variant/20 flex gap-5 items-center group hover:shadow-md transition-shadow reveal reveal-delay-2">
+                            <div class="w-20 h-28 bg-surface-container-lowest rounded flex items-center justify-center shrink-0 overflow-hidden">
+                                <img alt="燕山壹号 53%vol" class="h-full object-contain cursor-zoom-in group-hover:scale-110 transition-transform duration-500" src="./assets/images/brandy-bottle-alt.jpg" onclick="openLightbox(this.src,this.alt)" />
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="text-xs font-label text-[#b8860b] tracking-widest uppercase mb-1 flex items-center gap-1">
+                                    <span class="material-symbols-outlined text-[12px]" style="font-variation-settings:'FILL' 1;">workspace_premium</span> FISA大金奖
+                                </div>
+                                <div class="font-serif text-base text-primary mb-1">燕山壹号 53%vol</div>
+                                <div class="text-xs text-on-surface-variant leading-relaxed">最高分Trophy · 白巧克力·兰花·苹果</div>
+                            </div>
+                        </div>
+                        <!-- 62%vol -->
+                        <div class="bg-surface rounded-lg p-6 border border-outline-variant/20 flex gap-5 items-center group hover:shadow-md transition-shadow reveal reveal-delay-3">
+                            <div class="w-20 h-28 bg-surface-container-lowest rounded flex items-center justify-center shrink-0 overflow-hidden">
+                                <img alt="燕山壹号 62%vol" class="h-full object-contain cursor-zoom-in group-hover:scale-110 transition-transform duration-500" src="./assets/images/brandy-bottle-1.jpg" onclick="openLightbox(this.src,this.alt)" />
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="text-xs font-label text-on-surface-variant tracking-widest uppercase mb-1">原度烈酒</div>
+                                <div class="font-serif text-base text-primary mb-1">燕山壹号 62%vol</div>
+                                <div class="text-xs text-on-surface-variant leading-relaxed">浓烈纯粹 · 风土原味</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center text-xs text-on-surface-variant/60 font-label mt-6 tracking-widest">如需了解详细产品规格或采购合作，欢迎致电或在线留言</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tab Panel: 杏子酒 -->
+        <div data-tab-panel="apricot" class="hidden bg-surface-container-low py-24 px-8">
+            <div class="max-w-screen-2xl mx-auto">
+
+                <div class="section-divider reveal">
+                    <span class="font-label text-xs tracking-widest uppercase text-tertiary px-4">「酒」· 冀承果创 · 两大核心产品之二</span>
+                </div>
+
+                <!-- 杏子酒 核心产品全宽展示 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
+                    <div class="flex flex-col reveal">
+                        <div class="aspect-[3/4] bg-[#fdf3e7] flex items-center justify-center mb-8 relative group overflow-hidden rounded-sm">
+                            <img alt="燕山山杏酒，以燕山山杏汁与国光苹果汁调配发酵，橙黄果香" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./assets/images/products-apricot-research.jpg" />
+                        </div>
+                        <h3 class="text-3xl font-serif text-primary mb-3">杏子酒<span class="text-base font-normal text-on-surface-variant ml-2">（正在研发中）</span></h3>
+                        <p class="text-sm text-on-surface-variant mb-6 leading-relaxed">
+                            取燕山野生山杏鲜榨原汁，与国光苹果汁按比例调配，经低温发酵而成。两种果汁天然融合，杏香浓郁饱满，苹果赋予其清爽骨架，口感层次丰富，是冀承果创第二大核心品类。
+                        </p>
+                        <div class="border-t border-outline-variant/30 pt-4 mt-auto space-y-2">
+                            <div class="flex justify-between items-center text-xs font-label tracking-wider uppercase text-stone-500">
+                                <span>原料：燕山山杏汁 + 国光苹果汁</span>
+                            </div>
+                            <div class="flex justify-between items-center text-xs font-label tracking-wider uppercase text-stone-500">
+                                <span>风味：杏香浓郁 · 清爽果酸</span>
+                                <span>发酵果酒</span>
+                            </div>
+                        </div>
+                        <a href="./index.html#contact" class="mt-6 text-center bg-primary text-on-primary px-6 py-3 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary-container hover:text-on-primary-container transition-all">
+                            立即咨询
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 杏子酒 详细介绍 独立大篇幅 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center mb-24">
+                    <div class="md:col-span-5 reveal-left">
+                        <div class="aspect-[4/3] overflow-hidden rounded-lg">
+                            <img alt="燕山山杏果实近景，阳光照射下橙黄饱满" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" src="./assets/images/products-apricot-research.jpg" />
+                        </div>
+                    </div>
+                    <div class="md:col-span-7 reveal-right">
+                        <span class="text-tertiary font-label tracking-widest text-xs uppercase mb-4 block">燕山山杏 × 国光苹果 · 双果融合</span>
+                        <h2 class="font-serif text-4xl text-primary mb-6 leading-snug">
+                            一款属于燕山的杏子酒<span class="text-lg font-light text-on-surface-variant ml-2">（正在研发中）</span>
+                        </h2>
+                        <p class="text-on-surface-variant leading-relaxed mb-6">
+                            燕山山脉的野生山杏，生长于海拔600米以上的向阳坡地，昼夜温差大，果实积累了极高的天然糖分与馥郁果香。我们将山杏鲜榨原汁与国光苹果汁结合，让两种燕山风土的馈赠在发酵中相遇——杏子的浓郁饱满，苹果的清爽支撑，共同构成这款酒独一无二的风味骨架。
+                        </p>
+                        <p class="text-on-surface-variant leading-relaxed mb-10">
+                            与 17° 原酿苹果酒一脉相承，我们坚持同样的原则：<strong class="text-on-surface">原料的品质决定酒的灵魂</strong>，绝不妥协。杏子酒目前正处于配方优化与小批量试酿阶段，以燕山风土的双果馈赠，即将呈现一款真正属于这片山野的发酵果酒。
+                        </p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-tertiary font-label text-xs tracking-widest uppercase mb-1">主要原料</div>
+                                <div class="text-on-surface font-serif text-sm">燕山山杏 + 国光苹果</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-tertiary font-label text-xs tracking-widest uppercase mb-1">酿造工艺</div>
+                                <div class="text-on-surface font-serif text-sm">双果汁调配 · 低温发酵</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-tertiary font-label text-xs tracking-widest uppercase mb-1">香气风格</div>
+                                <div class="text-on-surface font-serif text-sm">杏香浓郁 · 花香 · 果酸</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-tertiary font-label text-xs tracking-widest uppercase mb-1">产品状态</div>
+                                <div class="text-on-surface font-serif text-sm flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-[#b8660a] animate-pulse inline-block"></span>
+                                    小批量试酿中
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 底部：预约通知 -->
+                <div class="bg-[#fdf3e7] rounded-xl p-12 border border-[#e8c49a]/40 text-center reveal max-w-2xl mx-auto">
+                    <span class="font-serif text-3xl text-[#8b4513] mb-4 block">杏子酒（正在研发中），很快与你相见</span>
+                    <p class="text-stone-500 text-sm leading-relaxed mb-8">
+                        首批数量有限，留下联系方式，正式上市前我们第一时间通知您。
+                    </p>
+                    <a href="./index.html#contact" class="inline-block bg-primary text-on-primary px-10 py-4 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary-container hover:text-on-primary-container transition-all">
+                        立即咨询
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tab Panel: 国光鲜果 -->
+        <div id="fresh-apple" data-tab-panel="fresh" class="hidden bg-surface-container-low py-24 px-8">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="section-divider reveal">
+                    <span class="font-label text-xs tracking-widest uppercase text-tertiary px-4">「果」· 国光苹果 · 原料即产品</span>
+                </div>
+                <!-- 产地介绍 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
+                    <div class="reveal-left">
+                        <div class="aspect-[4/3] overflow-hidden rounded-lg">
+                            <img alt="承德国光苹果园秋收，果实累累，燕山风光" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" src="./assets/images/about-guoguang-orchard.jpg" />
+                        </div>
+                    </div>
+                    <div class="reveal-right">
+                        <span class="text-tertiary font-label tracking-widest text-xs uppercase mb-4 block">国家地理标志保护产品</span>
+                        <h2 class="font-serif text-4xl text-primary mb-6">承德国光苹果</h2>
+                        <p class="text-on-surface-variant leading-relaxed mb-8">
+                            承德国光苹果是我们一切产品的根基。生长于燕山南麓，日照充足、昼夜温差显著，使得这一品种果实糖酸比例极佳，口感清脆多汁，香气馥郁持久。无套袋自然着色，表皮光洁，果肉紧实，是难得的鲜食与深加工双优品种。
+                        </p>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">产地</div>
+                                <div class="text-on-surface font-serif">河北省承德市</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">品种</div>
+                                <div class="text-on-surface font-serif">国光（传统古老品种）</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">采摘期</div>
+                                <div class="text-on-surface font-serif">每年 10–11 月</div>
+                            </div>
+                            <div class="bg-surface p-4 rounded-lg border border-outline-variant/20">
+                                <div class="text-secondary font-label text-xs tracking-widest uppercase mb-1">种植方式</div>
+                                <div class="text-on-surface font-serif">有机 · 无套袋</div>
+                            </div>
+                        </div>
+                        <a href="./index.html#contact" class="inline-block bg-primary text-on-primary px-8 py-4 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary-container hover:text-on-primary-container transition-all">
+            咨询鲜果采购
+          </a>
+                    </div>
+                </div>
+                <!-- 产品规格 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-surface p-10 rounded-lg border border-outline-variant/20 reveal reveal-delay-1">
+                        <div class="flex items-start gap-6 mb-8">
+                            <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-primary text-xl">redeem</span>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-2xl text-primary mb-2">精品礼盒装</h3>
+                                <p class="text-on-surface-variant text-sm leading-relaxed">严格筛选A级果实，配以燕山风土主题包装。适合商务礼赠、节日馈赠及高端零售。</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-sm text-on-surface-variant border-t border-outline-variant/20 pt-6">
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>每颗手工挑选，无碰伤无虫眼</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>可定制企业LOGO包装</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>附赠产地溯源卡</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>顺丰冷链配送</li>
+                        </ul>
+                        <a href="./index.html#contact" class="mt-8 block text-center border border-primary text-primary px-6 py-3 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary hover:text-on-primary transition-all">
+            联系定制
+          </a>
+                    </div>
+                    <div class="bg-surface p-10 rounded-lg border border-outline-variant/20 reveal reveal-delay-2">
+                        <div class="flex items-start gap-6 mb-8">
+                            <div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-secondary text-xl">local_shipping</span>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-2xl text-primary mb-2">产地直发</h3>
+                                <p class="text-on-surface-variant text-sm leading-relaxed">当季采摘，产地直发，最大程度保留苹果的新鲜口感与自然香气。适合家庭购买与批量采购。</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-sm text-on-surface-variant border-t border-outline-variant/20 pt-6">
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>采摘后48小时内发货</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>支持5斤起批</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>季节性供应（10–11月）</li>
+                            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-base">check_circle</span>大宗批发另有优惠</li>
+                        </ul>
+                        <a href="./index.html#contact" class="mt-8 block text-center border border-secondary text-secondary px-6 py-3 rounded-full font-label text-xs tracking-widest uppercase hover:bg-secondary hover:text-on-secondary transition-all">
+            联系采购
+          </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Panel: 文创好物 -->
+        <div data-tab-panel="creative" class="hidden bg-surface-container-low py-24 px-8">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="section-divider reveal">
+                    <span class="font-label text-xs tracking-widest uppercase text-tertiary px-4">「衍」· 冀承果创文创</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div class="reveal-left">
+                        <span class="text-tertiary font-label tracking-widest text-xs uppercase mb-4 block">即将上线</span>
+                        <h2 class="font-serif text-4xl text-primary mb-6">将风土带回家</h2>
+                        <p class="text-on-surface-variant leading-relaxed mb-8">
+                            我们正在精心筹备一系列承载燕山风土记忆的文创产品，包括苹果木手工制品、果酒品鉴周边、以及承德国光主题定制礼盒。每一件都是对这片土地的深情致意。
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-4 p-4 bg-surface rounded-lg border border-outline-variant/20">
+                                <span class="material-symbols-outlined text-primary text-xl">carpenter</span>
+                                <div>
+                                    <div class="text-sm font-bold">苹果木工艺品</div>
+                                    <div class="text-xs text-on-surface-variant">利用果园修剪木料，手工制作砧板、摆件</div>
+                                </div>
+                                <span class="ml-auto text-xs text-tertiary font-label tracking-widest uppercase">筹备中</span>
+                            </div>
+                            <div class="flex items-center gap-4 p-4 bg-surface rounded-lg border border-outline-variant/20">
+                                <span class="material-symbols-outlined text-secondary text-xl">wine_bar</span>
+                                <div>
+                                    <div class="text-sm font-bold">品鉴周边套装</div>
+                                    <div class="text-xs text-on-surface-variant">定制酒杯、醒酒器、品鉴笔记本</div>
+                                </div>
+                                <span class="ml-auto text-xs text-tertiary font-label tracking-widest uppercase">筹备中</span>
+                            </div>
+                            <div class="flex items-center gap-4 p-4 bg-surface rounded-lg border border-outline-variant/20">
+                                <span class="material-symbols-outlined text-tertiary text-xl">redeem</span>
+                                <div>
+                                    <div class="text-sm font-bold">风土主题礼盒</div>
+                                    <div class="text-xs text-on-surface-variant">酒+鲜果+文创组合，节日礼赠首选</div>
+                                </div>
+                                <span class="ml-auto text-xs text-tertiary font-label tracking-widest uppercase">筹备中</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal-right">
+                        <div class="bg-surface rounded-xl p-12 border border-outline-variant/20 text-center">
+                            <span class="material-symbols-outlined text-primary text-5xl mb-6 block">notifications</span>
+                            <h3 class="font-serif text-2xl text-primary mb-4">第一时间知晓上新</h3>
+                            <p class="text-on-surface-variant text-sm leading-relaxed mb-8">
+                                留下您的联系方式，文创系列正式上线时，我们将第一时间通知您。
+                            </p>
+                            <a href="./index.html#contact" class="block bg-primary text-on-primary px-8 py-4 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary-container hover:text-on-primary-container transition-all">
+              留言订阅通知
+            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Panel: 研发预览 -->
+        <div data-tab-panel="research" class="hidden py-24 px-8">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="section-divider reveal">
+                    <span class="font-label text-xs tracking-widest uppercase text-tertiary px-4">研发前沿 · 下一次丰收</span>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8 reveal">
+                    <h2 class="text-5xl font-serif text-on-surface">正在探索的方向</h2>
+                    <p class="text-on-surface-variant max-w-md italic">
+                        "创新是传统与未来之间的桥梁。我们的研发团队正在探索滦河微气候中更多的可能性。"
+                    </p>
+                </div>
+                <div class="flex gap-12 overflow-x-auto pb-12 snap-x no-scrollbar">
+                    <!-- 山杏酒研究 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[600px] group reveal reveal-delay-1">
+                        <div class="bg-surface-container-high aspect-video mb-8 overflow-hidden relative">
+                            <img alt="燕山山杏果实特写，阳光照射下橙黄色果皮明亮饱满" class="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105" src="./assets/images/products-apricot-research.jpg" />
+                            <div class="absolute bottom-8 left-8 bg-surface p-6 max-w-xs shadow-xl">
+                                <span class="text-tertiary font-label text-xs tracking-widest uppercase mb-2 block">已上市</span>
+                                <h4 class="text-xl font-serif text-primary mb-2">山杏果酒</h4>
+                                <p class="text-xs text-on-surface-variant font-label leading-relaxed">
+                                    探索燕山高糖野山杏，打造兼具果香与单宁层次的限量发酵系列。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 土壤矿物 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[600px] group reveal reveal-delay-2">
+                        <div class="bg-surface-container-high aspect-video mb-8 overflow-hidden relative">
+                            <img alt="砾质石灰岩土壤微距摄影，在戏剧性工作室灯光下隐约闪烁云母光泽" class="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105" src="./assets/images/products-soil-mineralogy.jpg" />
+                            <div class="absolute bottom-8 left-8 bg-surface p-6 max-w-xs shadow-xl">
+                                <span class="text-secondary font-label text-xs tracking-widest uppercase mb-2 block">进行中</span>
+                                <h4 class="text-xl font-serif text-primary mb-2">矿物风土研究</h4>
+                                <p class="text-xs text-on-surface-variant font-label leading-relaxed">
+                                    研究河谷富含花岗岩的土壤如何影响桶陈烈酒的结构与风味层次。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部联系区 -->
+        <section class="bg-surface py-24 border-t border-outline-variant/10">
+            <div class="max-w-screen-xl mx-auto px-8 text-center reveal">
+                <h2 class="font-serif text-3xl text-primary mb-4">有采购或合作意向？</h2>
+                <p class="text-on-surface-variant max-w-xl mx-auto mb-8">无论是酒品代理、鲜果采购、文创定制还是媒体合作，欢迎与我们联系。</p>
+                <div class="flex flex-col md:flex-row justify-center gap-4">
+                    <a href="./index.html#contact" class="bg-primary text-on-primary px-10 py-4 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary-container hover:text-on-primary-container transition-all">
+          在线留言
+        </a>
+                    <a href="tel:+8603143016665" class="border border-primary text-primary px-10 py-4 rounded-full font-label text-xs tracking-widest uppercase hover:bg-primary hover:text-on-primary transition-all">
+          致电咨询
+        </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Lightbox 图片放大组件 -->
+    <div id="lb-overlay" class="fixed inset-0 z-[9999] bg-black/92 hidden items-center justify-center" onclick="closeLightbox()">
+        <button onclick="closeLightbox()" class="absolute top-5 right-6 text-white/70 hover:text-white transition-colors text-4xl leading-none font-light z-10" aria-label="关闭">
+    &times;
+  </button>
+        <div class="relative max-w-[92vw] max-h-[92vh] flex items-center justify-center" onclick="event.stopPropagation()">
+            <img id="lb-img" src="" alt="" class="max-w-full max-h-[88vh] object-contain rounded-lg shadow-2xl select-none" style="transition:opacity .25s ease" />
+            <p id="lb-caption" class="absolute -bottom-8 left-0 right-0 text-center text-white/60 text-xs font-label tracking-wide"></p>
+        </div>
+        <p class="absolute bottom-5 left-1/2 -translate-x-1/2 text-white/30 text-xs font-label tracking-widest">按 ESC 或点击背景关闭</p>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        #lb-overlay {
+            display: none;
+        }
+        
+        #lb-overlay.lb-open {
+            display: flex;
+        }
+    </style>
+
+    <script src="./components/nav.js"></script>
+    <script src="./components/footer.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            renderNav('products');
+            renderFooter();
+        });
+
+        /* ── Lightbox ── */
+        function openLightbox(src, alt) {
+            const overlay = document.getElementById('lb-overlay');
+            const img = document.getElementById('lb-img');
+            const caption = document.getElementById('lb-caption');
+            img.style.opacity = '0';
+            img.src = src;
+            img.alt = alt || '';
+            caption.textContent = alt || '';
+            overlay.classList.add('lb-open');
+            document.body.style.overflow = 'hidden';
+            img.onload = () => {
+                img.style.opacity = '1';
+            };
+        }
+
+        function closeLightbox() {
+            document.getElementById('lb-overlay').classList.remove('lb-open');
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
+</body>
+
+</html>

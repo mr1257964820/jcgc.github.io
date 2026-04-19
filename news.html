@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>最新动态 - 冀承果创</title>
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <script src="./assets/js/tailwind.min.js"></script>
+    <script src="./assets/js/tailwind-config.js"></script>
+    <script src="./assets/js/icons.js"></script>
+</head>
+
+<body class="bg-background text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- TopNavBar -->
+    <div id="nav-placeholder"></div>
+
+    <main class="pt-32 pb-24">
+
+        <!-- Hero Section -->
+        <section class="max-w-screen-2xl mx-auto px-8 mb-24">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-end">
+                <div class="md:col-span-7 reveal-left">
+                    <span class="text-tertiary font-label text-sm tracking-[0.2em] uppercase block mb-4">最新动态</span>
+                    <h1 class="text-5xl md:text-7xl font-serif text-primary leading-tight mb-8">品牌动态</h1>
+                    <p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">
+                        探寻燕山的律动脉搏。从果园中第一颗花蕾的绽放，到精品白兰地的最终封坛，与我们的传承和创新同行。
+                    </p>
+                </div>
+                <div class="md:col-span-5 text-right reveal-right">
+                    <div class="inline-flex items-center gap-4 border-b border-outline-variant/30 pb-2">
+                        <span class="material-symbols-outlined text-primary">calendar_today</span>
+                        <span id="season-tag" class="font-label text-xs tracking-widest uppercase text-on-surface-variant">时令：加载中</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 主要报道 Bento -->
+        <section class="max-w-screen-2xl mx-auto px-8 mb-32">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- 主文章 -->
+                <div class="md:col-span-2 bg-surface-container-low group cursor-pointer overflow-hidden flex flex-col reveal-left">
+                    <div class="aspect-[16/9] overflow-hidden relative">
+                        <img alt="金色午后阳光透过茂密果园枝头，山谷薄雾中的丰收景象" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./assets/images/news-harvest-season.jpg" />
+                        <div class="absolute top-6 left-6 bg-white/80 backdrop-blur px-4 py-1 text-[10px] tracking-widest uppercase font-bold text-primary">物候报告</div>
+                    </div>
+                    <div class="p-10">
+                        <span class="text-stone-400 font-label text-[10px] tracking-widest uppercase block mb-3">2025年 · 秋收季</span>
+                        <h2 class="text-4xl font-serif text-on-surface mb-4">燕山今秋：凉夏造就极佳果香复杂度</h2>
+                        <p class="text-on-surface-variant mb-6 line-clamp-2">
+                            今年夏末燕山山区降温较往年提前，国光苹果在更长的低温积累期内完成糖分转化，预计本季酒的花香层次将有显著提升。
+                        </p>
+                        <div class="flex items-center gap-2 text-primary font-bold text-xs tracking-widest uppercase">
+                            阅读全文 <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 次要文章 -->
+                <div class="bg-surface-container-highest p-8 flex flex-col justify-between reveal reveal-delay-1">
+                    <div>
+                        <span class="text-secondary font-label text-[10px] tracking-widest uppercase mb-6 block">工艺探索</span>
+                        <h3 class="text-2xl font-serif text-on-surface mb-4 leading-snug">陶器陈酿实验：传统储存智慧的现代应用</h3>
+                        <p class="text-sm text-on-surface-variant leading-relaxed mb-8">
+                            我们的研发团队正在探索结合传统中式储存方式与现代氧化控制技术的新型陈酿方案，为酒液带来更丰富的矿物风味轮廓。
+                        </p>
+                    </div>
+                    <div class="w-full aspect-square bg-surface-container-low overflow-hidden">
+                        <img alt="手工陶制储酒坛整齐排列在石窖中，昏暗环境光营造静谧氛围" class="w-full h-full object-cover opacity-80" src="./assets/images/news-aging-vessels.jpg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 季节性物候报告 -->
+        <section class="bg-surface-container-low py-24 mb-32">
+            <div class="max-w-screen-2xl mx-auto px-8">
+                <div class="flex justify-between items-baseline mb-16 border-b border-outline-variant/20 pb-4 reveal">
+                    <h2 class="text-3xl font-serif text-on-surface">季节性物候报告</h2>
+                    <span class="text-xs tracking-widest uppercase text-on-surface-variant">按季节记录 · 持续更新</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <!-- 报告 1 -->
+                    <div class="bg-surface-container-lowest p-6 flex flex-col gap-6 reveal reveal-delay-1">
+                        <div class="h-40 bg-surface-variant overflow-hidden">
+                            <img alt="苹果枝头清晨露水特写，朦胧晨光中果实渐渐成熟" class="w-full h-full object-cover" src="./assets/images/about-quality-device-1.jpg" />
+                        </div>
+                        <div>
+                            <span class="text-[10px] tracking-tighter text-stone-400 font-label block mb-2 uppercase">2025年9月</span>
+                            <h4 class="text-lg font-serif mb-2 leading-snug">滦河谷地糖度检测报告</h4>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">追踪高海拔种植区糖分积累与酸度平衡变化，指导最佳采摘时机判断。</p>
+                        </div>
+                    </div>
+                    <!-- 报告 2 -->
+                    <div class="bg-surface-container-lowest p-6 flex flex-col gap-6 reveal reveal-delay-2">
+                        <div class="h-40 bg-surface-variant overflow-hidden">
+                            <img alt="果农双手轻托成熟红果，绿叶与土壤背景清晰可见" class="w-full h-full object-cover" src="./assets/images/news-soil-analysis.jpg" />
+                        </div>
+                        <div>
+                            <span class="text-[10px] tracking-tighter text-stone-400 font-label block mb-2 uppercase">2025年8月</span>
+                            <h4 class="text-lg font-serif mb-2 leading-snug">年度土壤有机质检测</h4>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">有机耕作实践与土壤健康年度更新，评估矿物质含量对果实风味的影响。</p>
+                        </div>
+                    </div>
+                    <!-- 报告 3 -->
+                    <div class="bg-surface-container-lowest p-6 flex flex-col gap-6 reveal reveal-delay-3">
+                        <div class="h-40 bg-surface-variant overflow-hidden">
+                            <img alt="燕山梯田与蜿蜒河流广角摄影，晴空万里生态和谐" class="w-full h-full object-cover" src="./assets/images/news-ecological-balance.jpg" />
+                        </div>
+                        <div>
+                            <span class="text-[10px] tracking-tighter text-stone-400 font-label block mb-2 uppercase">2025年7月</span>
+                            <h4 class="text-lg font-serif mb-2 leading-snug">燕山生态多样性观测</h4>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">本地野生动植物如何构成果三两独特风土环境，生物多样性保护进展报告。</p>
+                        </div>
+                    </div>
+                    <!-- 报告 4 -->
+                    <div class="bg-surface-container-lowest p-6 flex flex-col gap-6 reveal reveal-delay-4">
+                        <div class="h-40 bg-surface-variant overflow-hidden">
+                            <img alt="传统木制工具与玻璃发酵容器摆放于阳光明媚的工坊台面" class="w-full h-full object-cover" src="./assets/images/news-fermentation-tech.jpg" />
+                        </div>
+                        <div>
+                            <span class="text-[10px] tracking-tighter text-stone-400 font-label block mb-2 uppercase">2025年5月</span>
+                            <h4 class="text-lg font-serif mb-2 leading-snug">精准温控发酵系统升级</h4>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">引入新一代温控设备，将发酵温差控制在±0.3℃，最大程度保留果酯香气。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 品牌故事延伸 -->
+        <section class="max-w-screen-2xl mx-auto px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16">
+                <div class="md:col-span-4 reveal-left">
+                    <h2 class="text-4xl font-serif text-primary leading-tight md:sticky md:top-32">深度阅读</h2>
+                </div>
+                <div class="md:col-span-8 space-y-24">
+                    <!-- 文章 1 -->
+                    <article class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-b border-outline-variant/10 pb-16 reveal">
+                        <div class="order-2 md:order-1">
+                            <span class="text-tertiary font-label text-[10px] tracking-widest uppercase mb-4 block">品种故事</span>
+                            <h3 class="text-2xl font-serif mb-4">国光苹果：一个拥有百年历史的品种</h3>
+                            <p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                                国光苹果引入中国已逾百年，在承德燕山的独特水土中演化出了与原产地截然不同的风味特征。了解这颗苹果背后的品种故事与文化传承。
+                            </p>
+                            <a class="text-xs underline underline-offset-4 decoration-primary/30 hover:decoration-primary transition-all font-bold" href="#">阅读全文</a>
+                        </div>
+                        <div class="order-1 md:order-2 aspect-video bg-surface-container overflow-hidden">
+                            <img alt="高端酒吧内景，精品酒瓶在聚焦灯光下闪耀，玻璃器皿排列整齐" class="w-full h-full object-cover" src="./assets/images/news-global-vision (2).jpg" />
+                        </div>
+                    </article>
+                    <!-- 文章 2 -->
+                    <article class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-b border-outline-variant/10 pb-16 reveal">
+                        <div class="order-2 md:order-1">
+                            <span class="text-tertiary font-label text-[10px] tracking-widest uppercase mb-4 block">可持续农业</span>
+                            <h3 class="text-2xl font-serif mb-4">循环农业：苹果渣的第二次生命</h3>
+                            <p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                                蒸馏后的苹果渣不是废料，而是果园土壤的天然养分。我们的循环农业项目将酿造副产品转化为有机肥料，回归滋养下一代果树。
+                            </p>
+                            <a class="text-xs underline underline-offset-4 decoration-primary/30 hover:decoration-primary transition-all font-bold" href="#">阅读全文</a>
+                        </div>
+                        <div class="order-1 md:order-2 aspect-video bg-surface-container overflow-hidden">
+                            <img alt="有机腐殖质与干燥苹果渣混合的可持续农业场景" class="w-full h-full object-cover" src="./assets/images/news-sustainability.jpg" />
+                        </div>
+                    </article>
+                    <!-- 文章 3 -->
+                    <article class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center reveal">
+                        <div class="order-2 md:order-1">
+                            <span class="text-tertiary font-label text-[10px] tracking-widest uppercase mb-4 block">滦河风土</span>
+                            <h3 class="text-2xl font-serif mb-4">滦河的水，喂养了我们的果园</h3>
+                            <p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                                滦河流域的水文特征与矿物质组成，深刻影响着两岸土壤的化学结构。了解这条河流如何成为果三两风土体系中不可或缺的一部分。
+                            </p>
+                            <a class="text-xs underline underline-offset-4 decoration-primary/30 hover:decoration-primary transition-all font-bold" href="#">阅读全文</a>
+                        </div>
+                        <div class="order-1 md:order-2 aspect-video bg-surface-container overflow-hidden">
+                            <img alt="滦河河谷航拍，绿意盎然的果园与蜿蜒清澈的河道" class="w-full h-full object-cover" src="./assets/images/news-ecological-balance.jpg" />
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="./components/nav.js"></script>
+    <script src="./components/footer.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            renderNav('news');
+            renderFooter();
+        });
+    </script>
+</body>
+
+</html>

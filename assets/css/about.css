@@ -1,0 +1,9 @@
+﻿/* 匠心传承 Bento Grid — 仅剩需要 CSS 背景图的两张卡 */
+
+#rightCard {
+    background: url(../images/about-gengzuo.jpg) no-repeat center / cover;
+}
+
+#bottomRight {
+    background: url(../images/about-wine.jpg) no-repeat center / cover;
+}
